@@ -1,0 +1,45 @@
+body{
+  background-color: #364357;
+  color: white;
+  text-align: center;
+  border: 60px solid #65dbc0;
+  border-top: 0;
+}
+
+p{
+  padding-top: 70px;
+  padding-bottom: 0px;
+  margin-left: 150px;
+  margin-right: 150px;
+  /* font-size: 1.5em; */
+}
+
+form{
+  font-size: 1.5em;
+  margin-bottom: 3px;
+}
+
+input{
+  font-size: 1.2em;
+  margin-bottom: 3px;
+}
+
+input:hover{
+  font-size: 1.4em;
+  border-color: green;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+#submit{
+  padding: 20px;
+  margin-top: 5px;
+  background: orange;
+  color: white;
+  border-radius: 35px;
+}
+
+#submit:hover{
+  cursor: pointer;
+  background-color: green;
+  transition: 1s;
+}
